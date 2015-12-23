@@ -24,7 +24,7 @@ exclude-result-prefixes="xsl xs fo fn ditaarch"
 		method="xml" 
 		indent="yes" 
 		doctype-public="-//OASIS//DTD DITA Topic//EN"
-		doctype-system="../plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/topic.dtd"
+		doctype-system="topic.dtd"
 	/>
 	
 	<xsl:key name="tagErrors" match="data" use="@importance" />
